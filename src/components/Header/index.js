@@ -1,8 +1,11 @@
 import React from "react";
+import Navigation from "../Navigation"
 
-const Header = () => (
-  <div>
-    <h1>Richard Flores</h1>
+const Header = ({currentPage, handlePageChange}) => (
+  <div className="header-div">
+    <h1 className="head">Richard Flores</h1>
+    
+    <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
   </div>
 );
 

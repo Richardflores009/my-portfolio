@@ -1,17 +1,19 @@
-import React, { useState } from 'react';
+import React from 'react';
 import FriendCard from '../ProjectCard';
 import Wrapper from '../Wrapper';
+import deployedImg from '../../assets/img/logo192.png'
+import gitHubImg from '../../assets/img/github.png' 
 import projects from '../projects.json';
 // import './App.css';
 
 function Project() {
-  const [friendsList, setFriendsList] = useState(projects);
+  // const [friendsList, setFriendsList] = useState(projects);
 
 
   return (
     <Wrapper>
       <h1 className="title">Portfolio</h1>
-      {friendsList.map(project => (
+      {projects.map(project => (
         <FriendCard
           id={project.id}
           key={project.id}
@@ -19,6 +21,8 @@ function Project() {
           image={project.image}
           github={project.github}
           deployed={project.deployed}
+          githubLogo={gitHubImg}
+          deployedLogo={deployedImg}
         />
       ))}
     </Wrapper>

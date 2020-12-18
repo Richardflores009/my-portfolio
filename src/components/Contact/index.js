@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import './style.css';
 
 function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: ''});
@@ -32,33 +33,46 @@ function Contact() {
     //   console.log(formState);
 // JSX
 return(
-    <section>
-        <h1 data-testid="contact">Contact Me</h1>
-        <form id="contact-form" onSubmit={handleSubmit} >
-            {/* name input  */}
-            <div>
-                <label htmlFor="name">Name:</label>
-                <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-            </div>
-            {/* email input  */}
-            <div>
-                <label htmlFor="email">Eamil Address:</label>
-                <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
-            </div>
-            {/* message text area */}
-            <div>
-                <label htmlFor="message">Message:</label>
-                <textarea name="message" defaultValue={message} rows="5" onBlur={handleChange} />
+    <div align="center">
+       <div className="container">
+    <h1 data-testid="contact">Contact Me</h1>
+    <form id="contact-form" onSubmit={handleSubmit} >
+    <div className="row">
+      <div className="col-25">
+        <label htmlFor="name">Name:</label>
+      </div>
+      <div className="col-75">
+        <input type="text" name="name" defaultValue={name} onBlur={handleChange}/>
+      </div>
+    </div>
+    <div className="row">
+      <div className="col-25">
+        <label htmlFor="email">Eamil Address:</label>
+      </div>
+      <div className="col-75">
+        <input type="email" name="email" defaultValue={email} onBlur={handleChange}/>
+      </div>
+    </div>
+    <div className="row">
+      <div className="col-25">
+        <label htmlFor="message">Message:</label>
+      </div>
+      <div className="col-75">
+        <textarea className="text" name="message" defaultValue={message} rows="5" onBlur={handleChange} />
                 {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
-
-            </div>
-            <button data-testid="submit" type="submit">Submit</button>
-        </form>
-    </section>
+      </div>
+    </div>
+    <div className="row">
+      <input type="submit" value="Submit"/>
+    </div>
+    </form>
+  </div>
+    </div>
+    
 );
 
 }
