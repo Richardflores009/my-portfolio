@@ -1,3 +1,39 @@
+a {
+  text-decoration: none !important;
+  color: black;
+  text-align: center;
+}
+/* nav bar styles */
+.nav{
+  border-width:1px 0;
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+.nav li{
+  display:inline;
+  vertical-align: middle;
+}
+.nav a{
+  display:inline-block;
+  padding:30px;
+  font-size: large;
+}
+.head {
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  width: 50;
+}
+.header-div {
+  border-width:1px 0;
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+ /* card basic styles  */
 .card {
     background: #fff;
     border-radius: 2px;
@@ -16,7 +52,7 @@
     background:#6CADDC;
   }
   .card > .img-container > img {
-    width: 60%
+    width: 100%
   }
   
   .card > .content {
