@@ -1,9 +1,12 @@
 import React from "react";
+import selfie from "../../assets/img/rich.png"
 
 const AboutMe = () => (
-  <div>
-    <h1>About</h1>
-    <p>
+  <div className="text-center">
+    <div className="" >
+    <h1 className="font-sans text-6xl pb-10" >About Me</h1>
+    <img  className="mx-auto pb-10" src={selfie} alt="Project"height="200" width="170" />
+    <p className="font-sans text-center text-lg" >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
       varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
       Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
@@ -14,6 +17,9 @@ const AboutMe = () => (
       fames ac ante ipsum primis in faucibus.
     </p>
   </div>
+  
+  </div>
+  
 );
 
 export default AboutMe;
