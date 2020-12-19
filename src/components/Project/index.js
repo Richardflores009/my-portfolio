@@ -1,6 +1,6 @@
 import React from 'react';
-import FriendCard from '../ProjectCard';
-import Wrapper from '../Wrapper';
+import ProjectCard from '../ProjectCard';
+
 import deployedImg from '../../assets/img/logo192.png'
 import gitHubImg from '../../assets/img/github.png' 
 import projects from '../projects.json';
@@ -11,10 +11,12 @@ function Project() {
 
 
   return (
-    <Wrapper>
-      <h1 className="title">Portfolio</h1>
+    <div  className="container mx-auto">
+  
+      <h1 className="flex justify-center mb-24 text-6xl">Portfolio</h1>
+      <div className="grid grid-cols-4 gap-4">
       {projects.map(project => (
-        <FriendCard
+        <ProjectCard
           id={project.id}
           key={project.id}
           name={project.name}
@@ -25,7 +27,11 @@ function Project() {
           deployedLogo={deployedImg}
         />
       ))}
-    </Wrapper>
+      </div>
+      
+   
+    </div>
+    
   );
 }
 

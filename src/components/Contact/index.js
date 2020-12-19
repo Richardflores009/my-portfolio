@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
-import './style.css';
+
 
 function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: ''});
@@ -33,45 +33,38 @@ function Contact() {
     //   console.log(formState);
 // JSX
 return(
-    <div align="center">
-       <div className="container">
-    <h1 data-testid="contact">Contact Me</h1>
-    <form id="contact-form" onSubmit={handleSubmit} >
-    <div className="row">
-      <div className="col-25">
-        <label htmlFor="name">Name:</label>
+    <div className="flex items-center h-screen w-full bg-teal-lighter">
+  <div className="w-full bg-white rounded shadow-lg p-8 m-4 md:mx-auto">
+    <h1 className="block w-full text-center text-grey-darkest mb-6 text-4xl">Contact Me</h1>
+    <form className="mb-4 md:flex md:flex-wrap md:justify-between" action="/" method="post" onSubmit={handleSubmit}>
+      <div className="flex flex-col mb-4 md:w-1/2">
+        <label className="mb-2 uppercase tracking-wide font-bold text-lg text-grey-darkest" htmlFor="name">Full Name</label>
+        <input className="border py-2 px-3 text-grey-darkest md:mr-2" type="text" name="name" defaultValue={name} onBlur={handleChange}/>
       </div>
-      <div className="col-75">
-        <input type="text" name="name" defaultValue={name} onBlur={handleChange}/>
+      <div className="flex flex-col mb-4 md:w-full">
+        <label className="mb-2 uppercase font-bold text-lg text-grey-darkest" htmlFor="email">Email</label>
+        <input className="border py-2 px-3 text-grey-darkest" type="email" name="email" defaultValue={email} onBlur={handleChange}/>
       </div>
-    </div>
-    <div className="row">
-      <div className="col-25">
-        <label htmlFor="email">Eamil Address:</label>
-      </div>
-      <div className="col-75">
-        <input type="email" name="email" defaultValue={email} onBlur={handleChange}/>
-      </div>
-    </div>
-    <div className="row">
-      <div className="col-25">
-        <label htmlFor="message">Message:</label>
-      </div>
-      <div className="col-75">
-        <textarea className="text" name="message" defaultValue={message} rows="5" onBlur={handleChange} />
+      <div className="flex flex-col mb-6 md:w-full">
+        <label className="mb-2 uppercase font-bold text-lg text-grey-darkest" htmlFor="message">Messsage</label>
+        {/* <input className="border py-2 px-3 text-grey-darkest" type="message" name="message" id="message"/> */}
+        <textarea className="border py-2 px-3 text-grey-darkest" name="message" defaultValue={message} rows="5" onBlur={handleChange} />
                 {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
       </div>
-    </div>
-    <div className="row">
-      <input type="submit" value="Submit"/>
-    </div>
+      <button className="bg-blue-400 hover:bg-blue-500 mx-auto rounded p-3" type="submit">submit</button>
     </form>
   </div>
-    </div>
+</div>
+
+
+
+
+
+
     
 );
 
