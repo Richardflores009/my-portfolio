@@ -2,7 +2,7 @@
   "name": "name-port",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Richardflores009.github.io/photo-port",
+  "homepage": "https://github.com/Richardflores009/my-portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
