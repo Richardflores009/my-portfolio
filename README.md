@@ -32,7 +32,7 @@ This Repository is covered under the following license: [ISC]
 Richard Flores
 
 ## Links:
-Deployed Application: https://myhaus.herokuapp.com/ <br>
+Deployed Application: https://richardflores009.github.io/my-portfolio/ <br>
 Github Repository: https://github.com/Richardflores009/my-portfolio <br>
 
 ## Screenshots:
