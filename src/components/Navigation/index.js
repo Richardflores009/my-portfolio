@@ -4,9 +4,9 @@ function NavTabs(props) {
   const tabs = ['About Me', 'Project', 'Resume', 'Contact' ];
   return (
     
-    <ul className="flex justify-center w-50  ">
+    <ul className="flex justify-end block w-50 ">
       {tabs.map(tab => (
-        <li className="p-5 align-middle text-2xl" key={tab}>
+        <li className="p-5 px-7 align-middle text-2xl" key={tab}>
           <a
             href={'#' + tab.toLowerCase()}
             onClick={() => props.handlePageChange(tab)}

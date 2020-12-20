@@ -1,10 +1,13 @@
 import React from "react";
 import Navigation from "../Navigation"
+import About from "../AboutMe"
 
 const Header = ({currentPage, handlePageChange}) => (
-  <div className="bg-red-300 p-3">
+  <div className="bg-red-300 p-5">
+    <div className="pb-1">
+    <a href={<About/>} className="flex justify-start text-6xl absolute">Richard Flores</a>
+    </div>
     
-    <h1 className="flex justify-center text-8xl">Richard Flores</h1>
     <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
   </div>
 );
