@@ -37,11 +37,7 @@ Github Repository: https://github.com/Richardflores009/my-portfolio <br>
 
 ## Screenshots:
 
-![](img/gifone.gif)
-![](img/gif4.gif)
-![](img/gif3.gif)
-![](img/gif2.gif)
-
+![](src/assets/img/homepageSS.png)
 
 ## Questions:
 Contact me:<br>
