@@ -1,7 +1,7 @@
 import React from 'react';
 
 function NavTabs(props) {
-  const tabs = ['About Me', 'Project', 'Contact'];
+  const tabs = ['About Me', 'Project', 'Resume', 'Contact' ];
   return (
     
     <ul className="flex justify-center w-50  ">
@@ -10,9 +10,9 @@ function NavTabs(props) {
           <a
             href={'#' + tab.toLowerCase()}
             onClick={() => props.handlePageChange(tab)}
-            className={
-              props.currentPage === tab ? 'nav-link active' : 'nav-link'
-            }
+            className=
+              'focus:ring-2 focus:ring-red-500 mx-auto rounded p-3 bg-red-400'
+          
           >
             {tab}
           </a>
