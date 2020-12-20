@@ -540,21 +540,21 @@ video {
   width: 100%;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 800px) {
   .container {
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
+    max-width: 800px;
   }
 }
 
 @media (min-width: 1024px) {
   .container {
     max-width: 1024px;
+  }
+}
+
+@media (min-width: 1037px) {
+  .container {
+    max-width: 1037px;
   }
 }
 
@@ -13943,11 +13943,11 @@ video {
 }
 
 .max-w-screen-sm {
-  max-width: 640px;
+  max-width: 1037px;
 }
 
 .max-w-screen-md {
-  max-width: 768px;
+  max-width: 800px;
 }
 
 .max-w-screen-lg {
@@ -29128,26 +29128,26 @@ video {
   animation: bounce 1s infinite;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 1037px) {
   .sm\:container {
     width: 100%;
   }
 
-  @media (min-width: 640px) {
+  @media (min-width: 800px) {
     .sm\:container {
-      max-width: 640px;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .sm\:container {
-      max-width: 768px;
+      max-width: 800px;
     }
   }
 
   @media (min-width: 1024px) {
     .sm\:container {
       max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1037px) {
+    .sm\:container {
+      max-width: 1037px;
     }
   }
 
@@ -42536,11 +42536,11 @@ video {
   }
 
   .sm\:max-w-screen-sm {
-    max-width: 640px;
+    max-width: 1037px;
   }
 
   .sm\:max-w-screen-md {
-    max-width: 768px;
+    max-width: 800px;
   }
 
   .sm\:max-w-screen-lg {
@@ -57678,26 +57678,26 @@ video {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .md\:container {
     width: 100%;
   }
 
-  @media (min-width: 640px) {
+  @media (min-width: 800px) {
     .md\:container {
-      max-width: 640px;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .md\:container {
-      max-width: 768px;
+      max-width: 800px;
     }
   }
 
   @media (min-width: 1024px) {
     .md\:container {
       max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1037px) {
+    .md\:container {
+      max-width: 1037px;
     }
   }
 
@@ -71086,11 +71086,11 @@ video {
   }
 
   .md\:max-w-screen-sm {
-    max-width: 640px;
+    max-width: 1037px;
   }
 
   .md\:max-w-screen-md {
-    max-width: 768px;
+    max-width: 800px;
   }
 
   .md\:max-w-screen-lg {
@@ -86233,21 +86233,21 @@ video {
     width: 100%;
   }
 
-  @media (min-width: 640px) {
+  @media (min-width: 800px) {
     .lg\:container {
-      max-width: 640px;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .lg\:container {
-      max-width: 768px;
+      max-width: 800px;
     }
   }
 
   @media (min-width: 1024px) {
     .lg\:container {
       max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1037px) {
+    .lg\:container {
+      max-width: 1037px;
     }
   }
 
@@ -99636,11 +99636,11 @@ video {
   }
 
   .lg\:max-w-screen-sm {
-    max-width: 640px;
+    max-width: 1037px;
   }
 
   .lg\:max-w-screen-md {
-    max-width: 768px;
+    max-width: 800px;
   }
 
   .lg\:max-w-screen-lg {
@@ -114783,21 +114783,21 @@ video {
     width: 100%;
   }
 
-  @media (min-width: 640px) {
+  @media (min-width: 800px) {
     .xl\:container {
-      max-width: 640px;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .xl\:container {
-      max-width: 768px;
+      max-width: 800px;
     }
   }
 
   @media (min-width: 1024px) {
     .xl\:container {
       max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1037px) {
+    .xl\:container {
+      max-width: 1037px;
     }
   }
 
@@ -128186,11 +128186,11 @@ video {
   }
 
   .xl\:max-w-screen-sm {
-    max-width: 640px;
+    max-width: 1037px;
   }
 
   .xl\:max-w-screen-md {
-    max-width: 768px;
+    max-width: 800px;
   }
 
   .xl\:max-w-screen-lg {
@@ -143333,21 +143333,21 @@ video {
     width: 100%;
   }
 
-  @media (min-width: 640px) {
+  @media (min-width: 800px) {
     .\32xl\:container {
-      max-width: 640px;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .\32xl\:container {
-      max-width: 768px;
+      max-width: 800px;
     }
   }
 
   @media (min-width: 1024px) {
     .\32xl\:container {
       max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1037px) {
+    .\32xl\:container {
+      max-width: 1037px;
     }
   }
 
@@ -156736,11 +156736,11 @@ video {
   }
 
   .\32xl\:max-w-screen-sm {
-    max-width: 640px;
+    max-width: 1037px;
   }
 
   .\32xl\:max-w-screen-md {
-    max-width: 768px;
+    max-width: 800px;
   }
 
   .\32xl\:max-w-screen-lg {

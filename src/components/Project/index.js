@@ -14,7 +14,7 @@ function Project() {
     <div  className="container mx-auto">
   
       <h1 className="flex justify-center mb-24 text-6xl">Portfolio</h1>
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid sm:grid-cols-4 gap-4 sm:grid-cols ">
       {projects.map(project => (
         <ProjectCard
           id={project.id}
