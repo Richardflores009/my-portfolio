@@ -6,7 +6,7 @@ function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: ''});
     const {name, email, message} = formState;
     const [errorMessage, setErrorMessage] = useState('');
-    
+
     const handleChange = (e) => {
       if (e.target.name === 'email') {
         const isValid = validateEmail(e.target.value);
@@ -53,7 +53,7 @@ return(
                     </div>
                 )}
       </div>
-      <button className="bg-blue-400 hover:bg-blue-500 mx-auto rounded p-3" type="submit">submit</button>
+      <button className="bg-blue-400 hover:bg-blue-500 text-2xl mx-auto rounded p-3 px-7" type="submit">submit</button>
     </form>
   </div>
 </div>
