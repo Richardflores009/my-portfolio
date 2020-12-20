@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/photo-port/static/css/main.500edd75.chunk.css",
-    "main.js": "/photo-port/static/js/main.6823d6e3.chunk.js",
-    "main.js.map": "/photo-port/static/js/main.6823d6e3.chunk.js.map",
-    "runtime-main.js": "/photo-port/static/js/runtime-main.df42ab46.js",
-    "runtime-main.js.map": "/photo-port/static/js/runtime-main.df42ab46.js.map",
-    "static/js/2.b769d86d.chunk.js": "/photo-port/static/js/2.b769d86d.chunk.js",
-    "static/js/2.b769d86d.chunk.js.map": "/photo-port/static/js/2.b769d86d.chunk.js.map",
-    "static/js/3.30618d11.chunk.js": "/photo-port/static/js/3.30618d11.chunk.js",
-    "static/js/3.30618d11.chunk.js.map": "/photo-port/static/js/3.30618d11.chunk.js.map",
-    "index.html": "/photo-port/index.html",
-    "static/css/main.500edd75.chunk.css.map": "/photo-port/static/css/main.500edd75.chunk.css.map",
-    "static/js/2.b769d86d.chunk.js.LICENSE.txt": "/photo-port/static/js/2.b769d86d.chunk.js.LICENSE.txt",
-    "static/media/rich.fc9bf0dd.png": "/photo-port/static/media/rich.fc9bf0dd.png"
+    "main.css": "/my-portfolio/static/css/main.500edd75.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.6823d6e3.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.6823d6e3.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.504113c9.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.504113c9.js.map",
+    "static/js/2.b769d86d.chunk.js": "/my-portfolio/static/js/2.b769d86d.chunk.js",
+    "static/js/2.b769d86d.chunk.js.map": "/my-portfolio/static/js/2.b769d86d.chunk.js.map",
+    "static/js/3.30618d11.chunk.js": "/my-portfolio/static/js/3.30618d11.chunk.js",
+    "static/js/3.30618d11.chunk.js.map": "/my-portfolio/static/js/3.30618d11.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "static/css/main.500edd75.chunk.css.map": "/my-portfolio/static/css/main.500edd75.chunk.css.map",
+    "static/js/2.b769d86d.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.b769d86d.chunk.js.LICENSE.txt",
+    "static/media/rich.fc9bf0dd.png": "/my-portfolio/static/media/rich.fc9bf0dd.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.df42ab46.js",
+    "static/js/runtime-main.504113c9.js",
     "static/js/2.b769d86d.chunk.js",
     "static/css/main.500edd75.chunk.css",
     "static/js/main.6823d6e3.chunk.js"
