@@ -3,7 +3,7 @@ import ProjectCard from '../ProjectCard';
 
 import deployedImg from '../../assets/img/logo192.png'
 import gitHubImg from '../../assets/img/github.png' 
-import projects from '../projects.json';
+import projects from '../../assets/img/projects.json';
 // import './App.css';
 
 function Project() {
