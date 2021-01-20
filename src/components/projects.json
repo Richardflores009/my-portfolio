@@ -40,6 +40,14 @@
         "image": "https://raw.githubusercontent.com/Richardflores009/code-quiz/master/assets/Images/Screen%20Shot%202020-08-23%20at%2018.46.27.png",
         "github": "https://github.com/Richardflores009/code-quiz",
         "deployed": "https://richardflores009.github.io/code-quiz/#"
+      },
+      {
+        "id": 7,
+        "name": "Mamasita Empañadas",
+        "image": "../../assets/img/mama.png",
+        "github": "https://github.com/Richardflores009/Mamasita-Empanadas",
+        "deployed": "https://mamasita-empanadas.herokuapp.com/"
       }
+      
   ]
   
