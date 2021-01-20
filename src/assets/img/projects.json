@@ -44,7 +44,7 @@
       {
         "id": 7,
         "name": "Mamasita Empañadas",
-        "image": "./mama.png",
+        "image": "https://github.com/Richardflores009/my-portfolio/blob/master/src/assets/img/mama.png",
         "github": "https://github.com/Richardflores009/Mamasita-Empanadas",
         "deployed": "https://mamasita-empanadas.herokuapp.com/"
       }
